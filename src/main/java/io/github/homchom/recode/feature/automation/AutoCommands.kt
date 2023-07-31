@@ -69,7 +69,7 @@ val FAutoWand = autoCommand("/wand", DFStateDetectors.ChangeMode) { (new) ->
     }
 }
 
-val FAutoGlitchStick = autoCommand("/plot glitch", DFStateDetectors.ChangeMode) { (new) ->
+val FAutoGlitchStick = autoCommand("plot glitch", DFStateDetectors.ChangeMode) { (new) ->
     if (Config.getBoolean("autoRC")) {
         if (new.mode == PlotMode.Dev) sendCommand("plot glitch")
     }
