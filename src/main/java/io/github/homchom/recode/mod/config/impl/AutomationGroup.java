@@ -26,6 +26,7 @@ public class AutomationGroup extends ConfigGroup {
         this.register(new BooleanSetting("autofly", false));
         this.register(new BooleanSetting("autolagslayer", false));
         this.register(new BooleanSetting("autoChatLocal", false));
+        this.register(new BooleanSetting("autoGlitchStick", false))
         this.register(new BooleanSetting("autoClickEditMsgs", true));
         this.register(new BooleanSetting("autoTip", true));
     }
